@@ -1,0 +1,6 @@
+a=10
+b=55
+c=42
+
+max_num=a if (a > b and a > c )else (b if b > c else c)
+print("Maximum number is : ",max_num)
