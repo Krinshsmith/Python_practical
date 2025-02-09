@@ -1,0 +1,4 @@
+cel=12
+fah=((cel * 9 ) / 5)+ 32
+print("Temperature in far is : ")
+print(fah)
