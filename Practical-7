@@ -1,0 +1,29 @@
+def find_num(numbers):
+  p_count = n_count = zero_count = odd_count = even_count = 0
+  total_sum = 0
+
+  for num in numbers:
+    total_sum += num
+    if num > 0:
+      p_count += 1
+    elif num < 0:
+      n_count += 1
+    else:
+      zero_count += 1
+
+    if num % 2 == 0:
+      even_count += 1
+    else:
+      odd_count += 1
+
+  avg = total_sum / len(numbers) if len(numbers) > 0 else 0
+
+  print(p_count, ": positive numbers")
+  print(n_count, ": negative numbers")
+  print(zero_count, ": zero numbers")
+  print(odd_count, ": odd numbers")
+  print(even_count, ": even numbers")
+  print(avg, ": average")
+
+
+find_num([10, -12, 3, 0, 5, 6])
