@@ -1,0 +1,17 @@
+int_val = 10
+float_val = 20.5
+str_val = "Hello"
+bool_val = True
+list_val = [1, 2, 3]
+tuple_val = (10, 20, 30)
+dict_val = {"name": "Krinshsmith", "age": 19}
+set_val = {1, 2, "Python" , 3}
+
+print(f"int_val({int_val}) is of type {type(int_val)}")
+print(f"float_val({float_val}) is of type {type(float_val)}")
+print(f"str_val({str_val}) is of type {type(str_val)}")
+print(f"bool_val({bool_val}) is of type {type(bool_val)}")
+print(f"list_val({list_val}) is of type {type(list_val)}")
+print(f"tuple_val({tuple_val}) is of type {type(tuple_val)}")
+print(f"dict_val({dict_val}) is of type {type(dict_val)}")
+print(f"set_val({set_val}) is of type {type(set_val)}")
