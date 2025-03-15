@@ -1,0 +1,8 @@
+tup = (10,'DSU',12.5,True)
+print("Orignal tuple:",tup)
+lst= list(tup)
+print("List after conversion:",lst)
+lst.remove(12.5) 
+print("List after removing an item:",lst)
+tup= tuple(lst)
+print("final tuple:",tup)
