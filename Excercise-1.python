@@ -1,0 +1,16 @@
+a=int(input("Enter a number a : "))
+b=int(input("Enter a number b : "))
+
+print(f"Addition is ",(a+b))
+print(f"Subtraction is ",(a-b))
+
+def add(a,b):
+  return a+b;
+def sub(a,b):
+  return a-b;
+
+a=int(input("Enter a number a : "))
+b=int(input("Enter a number b : "))
+
+print(f"Addition of {a} and {b} is {add(a,b)}")
+print(f"Subtraction of {a} and {b} is {sub(a,b)}")
